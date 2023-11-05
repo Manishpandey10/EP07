@@ -1,15 +1,18 @@
 {
-  "devDependencies": {
-    "parcel": "^2.10.1",
-    "process": "^0.11.10"
+  "dependencies": {
+    "parcel": "^2.10.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.18.0"
   },
   "scripts": {
-    "start": " parcel index.html --no-cache",
+    "start": " parcel index.html",
     "build": "parcel build index.html",
     "test": "jest"
   },
-  "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+  "devDependencies": {
+    "@types/react": "^18.2.34",
+    "@types/react-dom": "^18.2.14",
+    "process": "^0.11.10"
   }
 }

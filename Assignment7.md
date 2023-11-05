@@ -9,4 +9,10 @@ useEffect is called everytime the component renders. if we dont put a dependency
 useEffect (()=>{}, [])
 -----------------------------------------------------------------------
 4- What is SPA?
+ans-stands for single page Application. even when we route or go to another page even then, we dont change the page we just change the component. browser will not refresh the page.
+like in older days when we visit another page the whole page reloads/refreshes.
+===================================
 5 - Diffrence in client side and server side routing?
+ans - #server side routing: when we click our anchor tag, it reloads the whole page, sends a network call for the page and then fetch the html from server and shows us the page.
+      
+#client side routing: All the components are loaded into our app so we don't have to make external network calls to fetch the networks/ servers. when the app is loaded for first time, all components are already there and when clicking link the component is loaded.

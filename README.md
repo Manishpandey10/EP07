@@ -16,3 +16,7 @@ when ever setValue is executed i.e the value of  state variable changes the Reac
 ans- initial "value" and "value" after invoking the set Function are two diffrent variable, when ever the function is called, the whole component is re rendered === whole component is invoked and a new instance of the variable is created with updated value. and react using diffing algo. finds the diffrence in the older version of component and newer one , and where ever element the variable is used will be updated . 
 
 * when ever local state variable is changed/updated , the component is rerendered. react triggers a reconciliation cycle.
+
+* #server side routing: when we click our anchor tag, it reloads the whole page, sends a network call for the page and then fetch the html from server and shows us the page.
+      
+* client side routing: All the components are loaded into our app so we don't have to make external network calls to fetch the networks/ servers. when the app is loaded for first time, all components are already there and when clicking link the component is loaded.
