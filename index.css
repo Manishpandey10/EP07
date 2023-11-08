@@ -16,6 +16,9 @@
     list-style: none;
     padding: 0 20px;
   }
+  .nav-items > ul > li > a {
+    text-decoration: none;
+  }
   .nav-items > ul > li:hover {
     cursor: pointer;
     color: #f34f5f;
@@ -37,7 +40,9 @@
   
   .res-card {
     padding: 5px;
-    width: 180px;
+    width: 200px;
+    height:400px
+    
     
   }
   
@@ -59,7 +64,12 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap:13px;
+    gap:13px; 
+  }
+  .res-container > a{
+    text-decoration:none !important;
+    color:black !important
+
   }
    .filter-btn{
     margin:07px;
@@ -83,3 +93,4 @@
   font-size:17px
   background-color:#4C59D2
 }
+

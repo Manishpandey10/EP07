@@ -38,17 +38,15 @@ const Body = () => {
   const resetSearch = ()=>{
      setSearchText('');
      console.log("setted!")
-     setFilteredRestaurants(filteredRestaurants);
+     setFilteredRestaurants(listOfRestraunts);
     console.log("dom is not updating");}
   //also called conditional Rendering
   //without conditional rendering 
-  // if(listOfRestraunts.length === 0 ){
-  //   return <Shimmer />
-  // }
+  if(listOfRestraunts.length === 0 ){
+    return <Shimmer />
+  }
 
-  return listOfRestraunts.length === 0 ? (
-    <Shimmer />
-  ) : (
+  return(
     <div className="body ">
       <div className="filter">
         <div className="search">
